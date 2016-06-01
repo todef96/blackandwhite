@@ -12,3 +12,7 @@ Usage:
 - Output results write a keywords particular output as a .JSON file which are datestamped eg "blackfile_datetimeyear.json"
 
 Example of output being used live: http://northofmoltke.com/blackandwhite/
+
+#Disclaimer
+
+Please note, this scraper is written 'to do the right thing'. Although I've included multithreading it is purposely set to only run a single thread/queue with a 5sec delay to mimic an average user/human opening a bunch of bookmarks one after the other. I encourage that it be used in this way at all times. 
